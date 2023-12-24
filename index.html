@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="Scrimba.com's JavaScriptmas challenge 10">
+  <meta name="keywords" content="HTML, CSS, JavaScript, scrimba">
+  <meta name="author" content="pennington programming">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>🎄 Rockin' Around - Korean Christmas Jukebox</title>
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Mountains+of+Christmas:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>🎄 크리스마스 주크박스 🎄</h1>
+    <iframe id="player" class="player" type="text/html" width="320" height="180" src="https://www.youtube.com/embed/2N-5zDjIEzA?autoplay=1" frameborder="0"></iframe>
+    
+    <div class="songs">
+        <button id="btn-el" onclick="playSong('2N-5zDjIEzA')">스타쉽 플래닛</button>
+        <button onclick="playSong('EpFvVxV93o0')">크리스마스잖아요</button>
+        <button onclick="playSong('JkRKxxLiDNI')">크리스마스니까</button>
+        <button onclick="playSong('ErI2DMftOzg')">Must have love</button>
+        <button onclick="playSong('iTgcp1oDk2M')">Beautiful Christmas</button>
+        <button onclick="playSong('w14rSMl35ro')">미리 메리 크리스마스</button>
+        <button onclick="playSong('UKmzMaAtzoE')">매일 크리스마스</button>
+        <button onclick="playSong('er1RYWQf0Gc')">하얀 겨울</button>
+        <button onclick="playSong('qW8ETfPxMVc')">화이트 크리스마스</button>
+    </div>
+  </div>  
+  <script src="main.js"></script>
+</body>
+</html>
